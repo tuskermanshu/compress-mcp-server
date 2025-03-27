@@ -45,7 +45,7 @@ async function main() {
     const serverOptions: any = {
       name: `Compression MCP Server v${SERVER_VERSION}`,
       version: SERVER_VERSION,
-      transport: 'tcp'  // 明确指定传输类型为tcp
+      transport: 'stdio'  // 明确指定传输类型为stdio
     };
     const server = new FastMCP(serverOptions);
 
