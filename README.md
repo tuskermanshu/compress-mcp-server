@@ -1,5 +1,7 @@
 # 压缩功能MCP服务器
 
+[![smithery badge](https://smithery.ai/badge/@tuskermanshu/compress-mcp-server)](https://smithery.ai/server/@tuskermanshu/compress-mcp-server)
+
 基于TypeScript和fastmcp框架实现的具有文件压缩和解压功能的MCP服务器。
 
 ## 项目概述
@@ -193,6 +195,15 @@ src/
 
 ## 安装方法
 
+### Installing via Smithery
+
+To install 压缩功能服务器 for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@tuskermanshu/compress-mcp-server):
+
+```bash
+npx -y @smithery/cli install @tuskermanshu/compress-mcp-server --client claude
+```
+
+### Manual Installation
 1. 克隆本仓库
 ```bash
 git clone <仓库地址>
