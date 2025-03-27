@@ -1,4 +1,4 @@
-# 压缩功能MCP服务器
+# Compress Files
 
 [![smithery badge](https://smithery.ai/badge/@tuskermanshu/compress-mcp-server)](https://smithery.ai/server/@tuskermanshu/compress-mcp-server)
 
