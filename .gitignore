@@ -1,0 +1,47 @@
+# 依赖
+node_modules/
+pnpm-lock.yaml
+
+# 构建输出
+dist/
+build/
+*.tsbuildinfo
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 测试目录和覆盖率报告
+coverage/
+.nyc_output/
+
+# IDE和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# 临时文件
+.tmp/
+temp/
+
+# 操作系统相关
+Thumbs.db
+.DS_Store
+
+# 测试文件
+test-files/*.gz 
